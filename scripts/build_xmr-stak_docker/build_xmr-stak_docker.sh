@@ -29,9 +29,7 @@ cmake -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF . ;
 make ;
 "
 
-test -d ubuntu_17.10 || mkdir ubuntu_17.10
-mv xmr-stak/bin/* ubuntu_17.10
-git -C xmr-stak clean -fd
+
 
 
 
