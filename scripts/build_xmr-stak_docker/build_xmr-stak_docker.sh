@@ -11,8 +11,8 @@ else
   git clone https://github.com/Murphylu1993/xmr-stak.git
 fi
 
-wget -c https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_384.81_linux-run
-chmod a+x cuda_*_linux-run
+#wget -c https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_384.81_linux-run
+#chmod a+x cuda_*_linux-run
 
 
 ########################
