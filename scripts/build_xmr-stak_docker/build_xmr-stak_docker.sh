@@ -37,6 +37,7 @@ git -C xmr-stak clean -fd
 ########################
 docker run --rm -it -v $PWD:/mnt ubuntu:17.04 /bin/bash -c "
 set -x ;
+echo \"deb http://old-releases.ubuntu.com/ubuntu disco main universe multiverse restricted\" >  /etc/apt/sources.list ;:
 apt update -qq ;
 apt install -y -qq libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev ;
 cd /mnt/xmr-stak ;
