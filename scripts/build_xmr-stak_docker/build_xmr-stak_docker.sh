@@ -25,7 +25,7 @@ apt update -qq ;
 apt install -y -qq libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev ;
 cd /mnt/xmr-stak ;
 /mnt/cuda_*_linux-run --silent --toolkit ;
-cmake -DCUDA_ENABLE=ON -DOpenCL_ENABLE=OFF . ;
+cmake -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF . ;
 make ;
 "
 
